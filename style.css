@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.fix{
+    overflow: hidden;
+}
+.container_full{
+    width: 100%;
+}
+.container{
+    width: 1500px;
+    display: block;
+    margin: 0 auto;
+}
+/*Signup/Login*/
+.header_bg{
+    background: #F9C14A;
+}
+#header .logo_left{
+    float: left;
+}
+#header .logo_left h6{
+    font-family: Myriad Pro;
+    font-weight: regular;/*
+    font-size: 40px;*/
+}
+#header .sec{
+    float: right;
+}
+#header section a{
+    color: black;
+    font-weight: 700;
+}
+
+/*Navbar*/
+.header_nav{
+    background: #000000;
+}
+.navbar .img_left{
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;/*
+    margin-bottom: 2px;*/
+}
+.navbar-toggler{
+    background-color: white;
+    border-radius: 10px;
+}
+#navbarNav>ul li a{
+    color: #fff;/*
+    margin-top: 10px;*/
+}
+#navbarNav>ul li a:hover{
+    font-weight: bold;
+    border-bottom: 5px solid #F9C14A;
+}
+#navbarNav>ul li.active a{
+    font-weight: bold;
+    border-bottom: 5px solid #F9C14A;
+}
+/*Navbar*/
+
+/*Carousel*/
+.food{
+    width: 100%;
+    filter: blur(4px);
+}
+/*
+.slide{
+    margin-bottom: 160px;
+}
+*/
+.content{
+    background: #fff;
+    width: 530px;
+    height: 95px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.3);
+    margin-bottom: 0px;
+    margin-left: 200px;
+}
+.content .enjoy{
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 8px;
+}
+.please{
+    font-size: 15px;
+    margin-left: 320px;
+    margin-bottom: 150px;
+}
+.form-control{
+    width: 320px;
+    margin-left: 730px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+/*Cuisine*/
+.header_cuisine{
+    background: #F4F4F4;
+}
+#browse .cuisine{
+    margin-top: 15px;
+    float: left;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 20px;
+}
+#browse .view{
+    margin-top: 15px;
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+}
+.italian{
+    margin-top: 35px;/*
+    border: 1px solid black;*/
+    height: 145px;
+    /*background-color: red;*/
+}
+.fa-chevron-left{
+    padding-top: 60px;
+    color: #7A7A7A;
+}
+.it_text{
+    margin-top: 2px;
+    margin-left: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 100;
+}
+.it_food{
+    margin-top: 25px;
+}
+.first{
+    margin-left: 150px;
+}
+.second{
+    margin-left: 50px;
+}
+.third{
+    margin-left: 50px;
+}
+.forth{
+    margin-left: 50px;
+}
+.fifth{
+    margin-left: 50px;
+}
+.sixth{
+    margin-left: 50px;
+}
+.fa-chevron-right{
+    padding-top: 60px;
+    margin-left: 145px;
+    color: #7A7A7A;
+}
+/*restaurant*/
+.restaurant{
+    margin-top: 25px;
+}/*
+.restaurant_icons{
+    flex-direction: row;
+}*/
+.mcdonalds{
+    margin-top: 30px;
+    margin-left: -80px;
+    position: relative;
+}
+.bd{
+    background: #fff;
+    width: 221px;
+    height: 22px;
+    position: absolute;
+    border-radius: 13px 13px 0px 0px;
+    background-color: rgb(249,193,74);
+    font-family: 'Baloo Tamma 2', cursive;/*
+    margin-bottom: 0px;
+    padding-top: 5px;
+    margin-left: 5px;*/
+}
+.under_bd{
+    background: #fff;
+    width: 221px;
+    height: 22px;
+    position: absolute;
+    border-radius: 0px 0px 13px 13px;
+    background-color: rgba(0,0,0,0.3);
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-top: 113px;
+}
+.details{
+    float: right;
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 11px;
+}
+.stars{
+    margin-left: 8px;
+}
+.kfc{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.pizzahut{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.domino{
+    margin-top: 20px;
+    margin-left: 105px;
+}
+.subway{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.burgerking{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.near{
+    margin-top: 60px;
+    background: #F4F4F4;
+    height: 380px;
+}
+.order_food{
+    height: 250px;
+}
+.order_food .your{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 500px;
+    padding-top: 60px;
+}
+.order_food .order{
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-left: 450px;
+}
+.app{
+    margin-left: 580px;
+}
+.yellow_bar{
+    margin-top: 50px;
+    width: 100%;
+    height: 10px;
+    background: #F9C14A;
+}
+.footer_part{
+    margin-top: 8px;
+    background: black;
+    height: 250px;
+}
+.limo{
+    color: white;
+}
+.para{
+    color: white;
+    text-transform: uppercase;
+}
+.button{
+    background: #F9C14A;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    height: 22px;
+}
+.left_side{
+    padding-left: 110px;
+    padding-top: 80px;/*
+    background: red;
+    border: 1px solid #EFBA47;*/
+}
+.y_bar{
+    border-right: 1px solid #EFBA47;
+    height: 215px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.mid_side{
+    padding-left: 70px;
+    padding-top: 40px;
+    margin-right: 90px;/*
+    background: red;
+    border: 1px solid #EFBA47;*/
+}
+.ellipse{
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.location{
+    margin-left: 5px;
+}
+.gulburg{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.envelope{
+    margin-left: 3px;
+}
+.last_side{
+    padding-left: 70px;
+    padding-top: 40px;
+    margin-right: 90px;/*
+    background: red;
+    border: 1px solid #EFBA47;*/
+}
+.fa-twitter{
+    margin-left: 3px;
+}
+.ellipse-face{
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.fa-facebook{
+    margin-left: 5px;
+}
+.ellipse-insta{
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-top: 25px;
+}
+.fa-instagram{
+    margin-left: 5px;
+}
+/*Responsive*/
+@media screen and (max-width: 760px){
+    
+    .toggle-button{
+        display: flex;
+        margin-top: 35px;
+    }
+    .food{
+        height: 350px;
+    }
+    
+    .form-control{
+        width: 400px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .content{
+        width: 300px;
+        height: 150px;
+        border-radius: 15px;
+        background-color: rgba(1,0,0,0.3);
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
+    .content .enjoy{
+        font-size: 20px;/*
+        display: none;*/
+    }
+    .please{
+        font-size: 15px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .mcdonalds{
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+    .kfc{
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+    .pizzahut{
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+    
+    .domino{/*
+        margin-top: 20px;*/
+        margin-left: 175px;
+    }
+    .subway{
+        margin-left: 175px;
+    }
+    .burgerking{
+        margin-left: 175px;
+    }
+    .near{/*
+        background: red;*/
+        height: 990px;
+    }
+    .order_food{/*
+        background: red;
+        margin-top: 600px;*/
+        width: 100%;
+        height: 140px;
+        
+    }
+    .order_food .your{/*
+        width: 100%;*/
+        font-size: 12px;
+        padding-top: 10px;
+        margin-left: 225px;
+    }
+    .order_food .order{/*
+        width: 100%;*/
+        font-size: 12px;/*
+        margin-left: -150px;*/
+        margin-left: 150px;
+    }
+    .order_food .app{
+        margin-left: 200px;
+    }
+    .yellow_bar{
+        width: 100%;
+    }
+    .y_bar{
+        display: none;
+    }
+    .footer_part{
+        height: 710px;
+    }
+    .left_side{
+        margin-left: 90px;
+    }
+    .mid_side{
+        margin-left: 100px;
+    }
+    ,last_side{
+        padding-left: 500px;
+    }
+}
